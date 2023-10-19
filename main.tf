@@ -20,6 +20,7 @@ resource "azurerm_key_vault" "this" {
       phone = contact.value.phone
     }
   }
+  test
 
   # Only one network_acls block is allowed.
   # Create it if the variable is not null.
